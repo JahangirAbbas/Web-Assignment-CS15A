@@ -42,3 +42,70 @@ web page.
 
 
 
+Jahangir Abbas       15091519-091
+
+
+(1)
+HTML <em> Tag
+Definition and Usage:
+The <em> tag is a phrase tag. It renders as emphasized text.
+Tip: This tag is not deprecated, but it is possible to achieve richer effect with CSS.
+All phrase tags:
+Tag	Description
+<em>	Renders as emphasized text
+<strong>	Defines important text
+<code>	Defines a piece of computer code
+<samp>	Defines sample output from a computer program
+<kbd>	Defines keyboard input
+<var>	Defines a variable
+
+
+Example: -
+Code:
+ 
+Result:
+ 
+(2)
+HTML <dd> Tag
+Definition and Usage:
+The <dd> tag is used to describe a term/name in a description list.
+The <dd> tag is used in conjunction with <dl> (defines a description list) and <dt> (defines terms/names).
+Inside a <dd> tag you can put paragraphs, line breaks, images, links, lists, etc.
+Differences Between HTML 4.01 and HTML5:
+In HTML 4.01, the <dd> tag was used to describe an item in a definition list.
+In HTML5, the <dd> tag is used to describe a term/name in a description list. 
+Example: -
+Code:
+ 
+Result:
+ 
+
+
+
+(3)
+HTML 5<rt> Tag
+Definition and Usage:
+The <rt> tag defines an explanation or pronunciation of characters (for East Asian typography) in a ruby annotation.
+Use the <rt> tag together with the <ruby> and the <rp> tags: The <ruby> element consists of one or more characters that needs an explanation/pronunciation, and an <rt> element that gives that information, and an optional <rp> element that defines what to show for browsers that not support ruby annotations.
+Example: -
+Code:
+ 
+Result:
+ 
+
+
+
+ 
+(4)
+HTML <ruby> Tag
+Definition and Usage:
+The <ruby> tag specifies a ruby annotation.
+A ruby annotation is a small extra text, attached to the main text to indicate the pronunciation or meaning of the corresponding characters. This kind of annotation is often used in Japanese publications.
+Use the <ruby> tag together with the <rt> and/or the <rp> tags: The <ruby> element consists of one or more characters that needs an explanation/pronunciation, and an <rt> element that gives that information, and an optional <rp> element that defines what to show for browsers that do not support ruby annotations.
+Example: -
+Code:
+ 
+Result:
+ 
+
+
